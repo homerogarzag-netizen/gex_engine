@@ -51,7 +51,7 @@ def get_headers():
 
 # --- MAPEO DE SÍMBOLOS ---
 def map_symbol_for_tradier(symbol):
-    if symbol == "SPX": return "$SPXW"
+    if symbol == "SPX": return "SPXW"
     if symbol == "NDX": return "$NDX"
     if symbol == "RUT": return "$RUT"
     return symbol
